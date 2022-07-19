@@ -1,0 +1,19 @@
+.filteritem{
+    display: flex;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--primary-bg);
+    color: var(--filter-text);
+    border: 1px solid var(--gray);
+    /* box-shadow: ; */
+    margin:10px 10px 10px 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.filteritem:hover{
+    background-color: var(--inactive-color);
+    transition: 0.1s ease-in;
+}
+.filteritem-name{
+    margin-left: 5px;
+}

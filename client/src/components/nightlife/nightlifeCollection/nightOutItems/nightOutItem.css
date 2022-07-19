@@ -1,0 +1,53 @@
+.night-item{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.night-item-cover{
+    width: 260px;
+    height: 320px;
+    border-radius: 8px;
+    box-shadow: var(--collection-shadow);
+    position: relative;
+}
+.night-item-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.bg-gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: var(--bg-gradient);
+}
+.night-item-name{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 16px;
+    color: var(--border-white);
+}
+.night-item-places{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 16px;
+    color: var(--border-white);
+}
+.place-arrow{
+    position: absolute;
+    bottom: -3px;
+    left: 88px;
+}

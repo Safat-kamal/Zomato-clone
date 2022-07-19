@@ -1,0 +1,144 @@
+.footer{
+    margin-top: 50px;
+    background-color: rgb(248, 248, 248);
+    padding: 30px 0px 20px;
+    box-shadow: var(--primary-box-shadow);
+}
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-logo{
+    height: 28px;
+    margin-left: 35px;
+}
+.footer-header-right{
+    display: flex;
+    margin-right: 35px;
+}
+.country{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.country{
+    display: flex;
+    padding: 2px 6px;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 10px;
+    width: max-content;
+    cursor: pointer;
+    margin-right: 15px;
+    background-color: var(--primary-bg);
+}
+.country i{
+    margin: 0 5px;
+}
+.flag img{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 7px;
+}
+.country span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.language{
+    display: flex;
+    padding: 2px 6px;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    align-items: center;
+    min-width: 10px;
+    width: max-content;
+    cursor: pointer;
+    background-color: var(--primary-bg);
+}
+.language i{
+    margin: 0 5px;
+}
+.language span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-heading{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 15px !important;
+}
+.col ul{
+    list-style: none;
+    float: left;
+}
+.col ul li{
+    text-align: left;
+    margin: 5px 0px;
+}
+.col ul li a{
+    color: var(--inactive-text);
+    font-size: 15px;
+    text-decoration: none;
+}
+.col ul li a:hover{
+    color: #000;
+}
+.socials ul{
+    list-style: none;
+}
+.social-icons{
+    display: flex !important;
+}   
+.social-icons li a{
+    text-decoration: none;
+}
+.social-icons li a{
+    color: #000;
+}
+.social-icons li a i{
+    width: 100px;
+    height: 100px;
+    margin: 0 6px;
+    color:rgb(44, 44, 44);
+}
+.app-store-cover{
+    width: 137px;
+    height: 40px;
+    margin: 20px 50px;
+}
+.app-store-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.play-store-cover{
+    width: 137px;
+    height: 40px;
+    margin: 20px 50px;
+}
+.play-store-image{
+    width: 100%;
+    height: 100%;
+}
+.footer-seperator{
+    height: 1px;
+    width: 100%;
+    background-color: var(--gray);
+    margin: 20px 0;
+}
+.footer-bottom{
+    color: rgb(79, 79, 79);
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+}

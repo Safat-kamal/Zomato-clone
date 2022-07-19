@@ -1,0 +1,30 @@
+#root{
+    --primary-box-shadow:rgb(28 28 28 / 8%) 0px 2px 8px;
+    --border-white : rgb(232, 232, 232);
+    --primary-bg:rgba(255,255,255);
+    --zomato-gray:#828282;
+    --zomato-red:#ff7e8b;
+    --gray:rgba(207,207,207);
+    --inactive-text:#696969;
+    --inactive-color:#f8f8f8;
+    --breadcrumb-active:#828282;
+    --breadcrumb-inactive:#c5c5c5;
+    --filter-text:#9c9c9c;
+    --heading-text:#1c1c1c;
+    --collection-shadow:rgb(0 0 0 / 8%) 0px 3px 12px;
+    --item-name:rgb(54, 54, 54);
+    --tag-red : #D92662;
+    --tag-blue :#256FEF;
+    --tag-green : #267e3e;
+    --bg-gradient:linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}
+
+
+
+
+
+
+
+
+
+

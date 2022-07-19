@@ -1,0 +1,141 @@
+.explore-card{
+    margin: 12px 0 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    max-width: 328px;
+}
+.explore-card-cover{
+    width: 328px;
+    height: 248px;
+    border-radius: 15px;
+    position: relative;
+}
+.explore-card-image{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 15px;
+}
+.delivery-time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(4px);
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--item-name);
+}
+.pro-off{
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    background-color: var(--tag-red);
+    color: var(--primary-bg);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0px 2px 2px 0px;
+    padding: 0px 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+}
+.discount{
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+    background-color: var(--tag-blue);
+    color: var(--primary-bg);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0px 2px 2px 0px;
+    padding: 0px 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+}
+.gold-off{
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+    background-color: var(--tag-blue);
+    color: var(--primary-bg);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0px 2px 2px 0px;
+    padding: 0px 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+}
+.res-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 2px;
+}
+.food-name{
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--heading-text);
+}
+.rating{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0px 8px;
+    color: var(--primary-bg);
+    background-color: var(--tag-green);
+    border-radius: 6px;
+    height: 24px;
+}
+.rating i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.res-cuisine{
+    max-width: 75%;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.res-tag{
+    color: var(--inactive-text);
+}
+.cfo{
+    color: var(--inactive-text);
+    font-size: 14px;
+}
+.card-seperator{
+    width: 100%;
+    height: 1px;
+    background-color: var(--border-white);
+   margin: 10px 0px 8px;
+}
+.explore-bottom{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 8px 0px 6px;
+}
+.res-bootom-text{
+    font-size: 14px;
+    margin-left: 5px;
+    color: var(--inactive-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+.explore-card:hover{
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-white);
+    box-shadow: var(--primary-box-shadow);
+}
